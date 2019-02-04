@@ -1,9 +1,6 @@
 class UsersController < ApplicationController
   before_action :require_token, only: [:show]
-  
-  # def Index
-  # end
-  
+
 
   def show
     if params [:id] ==@current_user.id.to_s
@@ -15,13 +12,18 @@ class UsersController < ApplicationController
 
 
   def create 
+
+    puts "\n\n\n\n\n" , user_params
     @user = User.create!(user_params)
     render json: @user
   end 
+
 
   private 
   def user_params
     params.require(:user).permit(:firstt_name, :last_name, :email, :password)
   end 
 end
+
+
 

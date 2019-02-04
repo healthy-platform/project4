@@ -7366,3 +7366,2889 @@ ActionController::ParameterMissing (param is missing or the value is empty: user
   
 app/controllers/users_controller.rb:24:in `user_params'
 app/controllers/users_controller.rb:18:in `create'
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 14:10:14 +0300
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "helthy-app_development" does not exist
+):
+  
+activerecord (5.2.2) lib/active_record/connection_adapters/postgresql_adapter.rb:696:in `rescue in connect'
+activerecord (5.2.2) lib/active_record/connection_adapters/postgresql_adapter.rb:691:in `connect'
+activerecord (5.2.2) lib/active_record/connection_adapters/postgresql_adapter.rb:223:in `initialize'
+activerecord (5.2.2) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `new'
+activerecord (5.2.2) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `postgresql_connection'
+activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:811:in `new_connection'
+activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:855:in `checkout_new_connection'
+activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:834:in `try_to_checkout_new_connection'
+activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:795:in `acquire_connection'
+activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:523:in `checkout'
+activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:1010:in `retrieve_connection'
+activerecord (5.2.2) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.2) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.2) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/menu" for 127.0.0.1 at 2019-01-31 14:10:55 +0300
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "helthy-app_development" does not exist
+):
+  
+activerecord (5.2.2) lib/active_record/connection_adapters/postgresql_adapter.rb:696:in `rescue in connect'
+activerecord (5.2.2) lib/active_record/connection_adapters/postgresql_adapter.rb:691:in `connect'
+activerecord (5.2.2) lib/active_record/connection_adapters/postgresql_adapter.rb:223:in `initialize'
+activerecord (5.2.2) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `new'
+activerecord (5.2.2) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `postgresql_connection'
+activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:811:in `new_connection'
+activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:855:in `checkout_new_connection'
+activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:834:in `try_to_checkout_new_connection'
+activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:795:in `acquire_connection'
+activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:523:in `checkout'
+activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:1010:in `retrieve_connection'
+activerecord (5.2.2) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.2) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.2) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 14:10:58 +0300
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "helthy-app_development" does not exist
+):
+  
+activerecord (5.2.2) lib/active_record/connection_adapters/postgresql_adapter.rb:696:in `rescue in connect'
+activerecord (5.2.2) lib/active_record/connection_adapters/postgresql_adapter.rb:691:in `connect'
+activerecord (5.2.2) lib/active_record/connection_adapters/postgresql_adapter.rb:223:in `initialize'
+activerecord (5.2.2) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `new'
+activerecord (5.2.2) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `postgresql_connection'
+activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:811:in `new_connection'
+activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:855:in `checkout_new_connection'
+activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:834:in `try_to_checkout_new_connection'
+activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:795:in `acquire_connection'
+activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:523:in `checkout'
+activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+activerecord (5.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:1010:in `retrieve_connection'
+activerecord (5.2.2) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.2) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.2) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+  [1m[35m (481.9ms)[0m  [1m[35mCREATE DATABASE "helthy-app_development" ENCODING = 'unicode'[0m
+  ↳ /Users/mac/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (412.3ms)[0m  [1m[35mCREATE DATABASE "helthy-app_test" ENCODING = 'unicode'[0m
+  ↳ /Users/mac/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (13.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ /Users/mac/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (9.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ /Users/mac/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/mac/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 14:12:07 +0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/mac/.rvm/gems/ruby-2.6.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.2) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.2) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4036293100197309945)[0m
+  ↳ /Users/mac/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/mac/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to CreateUsers (20190128121732)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/mac/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (13.9ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "firstt_name" character varying, "last_name" character varying, "email" character varying, "password_digest" character varying, "auth_token" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20190128121732_create_users.rb:3
+  [1m[35m (2.6ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_auth_token" ON "users"  ("auth_token")[0m
+  ↳ db/migrate/20190128121732_create_users.rb:12
+  [1m[36mActiveRecord::SchemaMigration Create (2.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190128121732"]]
+  ↳ /Users/mac/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/mac/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to CreateRestaurants (20190128122121)
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/mac/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (7.4ms)[0m  [1m[35mCREATE TABLE "restaurants" ("id" bigserial primary key, "name" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20190128122121_create_restaurants.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190128122121"]]
+  ↳ /Users/mac/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/mac/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to CreateMenus (20190128122336)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/mac/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (13.2ms)[0m  [1m[35mCREATE TABLE "menus" ("id" bigserial primary key, "restaurant_id" bigint, "dish_item" character varying, "price" float, "calories" float, "img" character varying, "description" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, CONSTRAINT "fk_rails_4d07a806b1"
+FOREIGN KEY ("restaurant_id")
+  REFERENCES "restaurants" ("id")
+)[0m
+  ↳ db/migrate/20190128122336_create_menus.rb:3
+  [1m[35m (1.6ms)[0m  [1m[35mCREATE  INDEX  "index_menus_on_restaurant_id" ON "menus"  ("restaurant_id")[0m
+  ↳ db/migrate/20190128122336_create_menus.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190128122336"]]
+  ↳ /Users/mac/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/mac/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mActiveRecord::InternalMetadata Load (0.9ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/mac/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/mac/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mActiveRecord::InternalMetadata Create (1.1ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-01-31 11:12:21.679477"], ["updated_at", "2019-01-31 11:12:21.679477"]]
+  ↳ /Users/mac/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/mac/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(4036293100197309945)[0m
+  ↳ /Users/mac/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/mac/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 14:12:30 +0300
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/mac/.rvm/gems/ruby-2.6.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by MenusController#index as */*
+  Parameters: {"id"=>4, "content"=>"The expert at anything was once a beginner1111.", "author"=>"Helen Hayes", "category"=>"education", "created_at"=>"2019-01-23T14:46:27.287Z", "updated_at"=>"2019-01-23T14:46:27.287Z", "menu"=>{"id"=>4, "created_at"=>"2019-01-23T14:46:27.287Z", "updated_at"=>"2019-01-23T14:46:27.287Z"}}
+  [1m[36mRestaurant Load (4.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/menus_controller.rb:14
+Completed 200 OK in 12ms (Views: 1.2ms | ActiveRecord: 8.2ms)
+
+
+  [1m[36mMenu Load (1.3ms)[0m  [1m[34mSELECT  "menus".* FROM "menus" LIMIT $1[0m  [["LIMIT", 11]]
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 14:15:23 +0300
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/mac/.rvm/gems/ruby-2.6.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by MenusController#index as */*
+  Parameters: {"id"=>4, "content"=>"The expert at anything was once a beginner1111.", "author"=>"Helen Hayes", "category"=>"education", "created_at"=>"2019-01-23T14:46:27.287Z", "updated_at"=>"2019-01-23T14:46:27.287Z", "menu"=>{"id"=>4, "created_at"=>"2019-01-23T14:46:27.287Z", "updated_at"=>"2019-01-23T14:46:27.287Z"}}
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/menus_controller.rb:14
+Completed 200 OK in 6ms (Views: 0.8ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/menu" for 127.0.0.1 at 2019-01-31 14:17:39 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/menu"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/favicon.ico" for 127.0.0.1 at 2019-01-31 14:17:39 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 14:17:42 +0300
+Processing by MenusController#index as HTML
+  [1m[36mRestaurant Load (1.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/menus_controller.rb:14
+Completed 200 OK in 4ms (Views: 2.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 14:23:43 +0300
+Processing by MenusController#index as */*
+  Parameters: {"id"=>4, "content"=>"The expert at anything was once a beginner1111.", "author"=>"Helen Hayes", "category"=>"education", "created_at"=>"2019-01-23T14:46:27.287Z", "updated_at"=>"2019-01-23T14:46:27.287Z", "menu"=>{"id"=>4, "created_at"=>"2019-01-23T14:46:27.287Z", "updated_at"=>"2019-01-23T14:46:27.287Z"}}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/menus_controller.rb:14
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 14:25:15 +0300
+Processing by MenusController#index as */*
+  Parameters: {"id"=>4, "content"=>"The expert at anything was once a beginner1111.", "author"=>"Helen Hayes", "category"=>"education", "created_at"=>"2019-01-23T14:46:27.287Z", "updated_at"=>"2019-01-23T14:46:27.287Z", "menu"=>{"id"=>4, "created_at"=>"2019-01-23T14:46:27.287Z", "updated_at"=>"2019-01-23T14:46:27.287Z"}}
+  [1m[36mRestaurant Load (1.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/menus_controller.rb:14
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 14:25:43 +0300
+Processing by MenusController#index as */*
+  Parameters: {"id"=>4, "content"=>"The expert at anything was once a beginner1111.", "author"=>"Helen Hayes", "category"=>"education", "created_at"=>"2019-01-23T14:46:27.287Z", "updated_at"=>"2019-01-23T14:46:27.287Z", "menu"=>{"id"=>4, "created_at"=>"2019-01-23T14:46:27.287Z", "updated_at"=>"2019-01-23T14:46:27.287Z"}}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/menus_controller.rb:14
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/menu" for 127.0.0.1 at 2019-01-31 14:41:09 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/menu"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 14:41:12 +0300
+Processing by MenusController#index as */*
+  Parameters: {"id"=>4, "content"=>"The expert at anything was once a beginner1111.", "author"=>"Helen Hayes", "category"=>"education", "created_at"=>"2019-01-23T14:46:27.287Z", "updated_at"=>"2019-01-23T14:46:27.287Z", "menu"=>{"id"=>4, "created_at"=>"2019-01-23T14:46:27.287Z", "updated_at"=>"2019-01-23T14:46:27.287Z"}}
+  [1m[36mRestaurant Load (4.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/menus_controller.rb:14
+Completed 200 OK in 13ms (Views: 1.4ms | ActiveRecord: 11.4ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 14:44:14 +0300
+Processing by MenusController#index as HTML
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/menus_controller.rb:14
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.4ms)
+
+
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/mac/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/mac/.rvm/rubies/ruby-2.6.0/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mMenu Load (0.6ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:29
+  [1m[36mRestaurant Create (1.9ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Kudu"], ["created_at", "2019-01-31 11:50:25.768493"], ["updated_at", "2019-01-31 11:50:25.768493"]]
+  ↳ db/seeds.rb:29
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:29
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:29
+  [1m[36mRestaurant Create (0.3ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Herfy"], ["created_at", "2019-01-31 11:50:25.772817"], ["updated_at", "2019-01-31 11:50:25.772817"]]
+  ↳ db/seeds.rb:29
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:29
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:29
+  [1m[36mRestaurant Create (0.3ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Alkhafeef"], ["created_at", "2019-01-31 11:50:25.774740"], ["updated_at", "2019-01-31 11:50:25.774740"]]
+  ↳ db/seeds.rb:29
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:29
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:29
+  [1m[36mRestaurant Create (0.2ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Subway"], ["created_at", "2019-01-31 11:50:25.776646"], ["updated_at", "2019-01-31 11:50:25.776646"]]
+  ↳ db/seeds.rb:29
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:29
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:29
+  [1m[36mRestaurant Create (0.2ms)[0m  [1m[32mINSERT INTO "restaurants" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Roma Way"], ["created_at", "2019-01-31 11:50:25.778378"], ["updated_at", "2019-01-31 11:50:25.778378"]]
+  ↳ db/seeds.rb:29
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:29
+  [1m[36mRestaurant Load (4.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:39
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:49
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:59
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ db/seeds.rb:69
+  [1m[36mRestaurant Load (0.1ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:79
+  [1m[36mRestaurant Load (0.1ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ db/seeds.rb:89
+  [1m[36mRestaurant Load (0.1ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ db/seeds.rb:98
+  [1m[36mRestaurant Load (0.1ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ db/seeds.rb:108
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:113
+  [1m[36mMenu Create (8.4ms)[0m  [1m[32mINSERT INTO "menus" ("restaurant_id", "dish_item", "price", "calories", "img", "description", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["restaurant_id", 1], ["dish_item", "Diet Grilled Chicken Meal"], ["price", 27.0], ["calories", 561.0], ["img", "https://beta.kudu.com.sa/media/cache/menu_image/img/menu/101821.jpg"], ["description", "Comes with brown bread fresh salad "], ["created_at", "2019-01-31 11:50:25.821569"], ["updated_at", "2019-01-31 11:50:25.821569"]]
+  ↳ db/seeds.rb:113
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:113
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:113
+  [1m[36mMenu Create (0.4ms)[0m  [1m[32mINSERT INTO "menus" ("restaurant_id", "dish_item", "price", "calories", "img", "description", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["restaurant_id", 2], ["dish_item", "Greek Salad"], ["price", 12.0], ["calories", 180.0], ["img", "https://i1.wp.com/ohmyveggies.com/wp-content/uploads/2017/05/vegan-greek-salad-with-tofu-feta-3.jpg"], ["description", "Green salad with greek cheese"], ["created_at", "2019-01-31 11:50:25.833055"], ["updated_at", "2019-01-31 11:50:25.833055"]]
+  ↳ db/seeds.rb:113
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:113
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:113
+  [1m[36mMenu Create (0.5ms)[0m  [1m[32mINSERT INTO "menus" ("restaurant_id", "dish_item", "price", "calories", "img", "description", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["restaurant_id", 2], ["dish_item", "Caesars chickin salad"], ["price", 12.0], ["calories", 200.0], ["img", "https://www.bbcgoodfood.com/sites/default/files/recipe_images/recipe-image-legacy-id--327831_11.jpg"], ["description", "Grilled chichkin withe caesars salad"], ["created_at", "2019-01-31 11:50:25.835496"], ["updated_at", "2019-01-31 11:50:25.835496"]]
+  ↳ db/seeds.rb:113
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:113
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:113
+  [1m[36mMenu Create (0.3ms)[0m  [1m[32mINSERT INTO "menus" ("restaurant_id", "dish_item", "price", "calories", "img", "description", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["restaurant_id", 3], ["dish_item", "Grilled Chicken"], ["price", 15.0], ["calories", 320.0], ["img", "http://www.alkhafeef.com.sa/wp-content/uploads/2014/03/CHICKEN-SANDWICH1.jpg"], ["description", "Grilled chicken with tomatoe, lettuce and ranch sauce "], ["created_at", "2019-01-31 11:50:25.837852"], ["updated_at", "2019-01-31 11:50:25.837852"]]
+  ↳ db/seeds.rb:113
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:113
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:113
+  [1m[36mMenu Create (0.3ms)[0m  [1m[32mINSERT INTO "menus" ("restaurant_id", "dish_item", "price", "calories", "img", "description", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["restaurant_id", 4], ["dish_item", "Smoked Beef"], ["price", 14.0], ["calories", 350.0], ["img", "http://www.alkhafeef.com.sa/wp-content/uploads/2014/03/CHICKEN-SANDWICH1.jpg"], ["description", "Try the amazing combination of wholesome thin dough, baked with smoked meat, kashkawan cheese, lettuce, fresh tomatoes, pickles and mayonnaise"], ["created_at", "2019-01-31 11:50:25.839792"], ["updated_at", "2019-01-31 11:50:25.839792"]]
+  ↳ db/seeds.rb:113
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:113
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:113
+  [1m[36mMenu Create (0.3ms)[0m  [1m[32mINSERT INTO "menus" ("restaurant_id", "dish_item", "price", "calories", "img", "description", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["restaurant_id", 4], ["dish_item", "Chicken Teriyaki"], ["price", 18.0], ["calories", 450.0], ["img", "https://www.subway.com/ns/images/menu/SAU/ENG/RPLC-Chicken-Teriyaki_594x334_PR.jpg"], ["description", "This gourmet specialty is a flavorful blend of tender teriyaki glazed chicken strips . Served hot & toasted on freshly baked bread."], ["created_at", "2019-01-31 11:50:25.841766"], ["updated_at", "2019-01-31 11:50:25.841766"]]
+  ↳ db/seeds.rb:113
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:113
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:113
+  [1m[36mMenu Create (0.7ms)[0m  [1m[32mINSERT INTO "menus" ("restaurant_id", "dish_item", "price", "calories", "img", "description", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["restaurant_id", 5], ["dish_item", "Oven Roasted Chicken"], ["price", 16.0], ["calories", 400.0], ["img", "https://www.subway.com/ns/images/menu/SAU/ENG/RPLC-Roasted_chicken_594x334_PR.jpg"], ["description", "Tender chicken patty on freshly baked bread... now that’s tempting to the max!"], ["created_at", "2019-01-31 11:50:25.843565"], ["updated_at", "2019-01-31 11:50:25.843565"]]
+  ↳ db/seeds.rb:113
+  [1m[35m (5.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:113
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:113
+  [1m[36mMenu Create (0.4ms)[0m  [1m[32mINSERT INTO "menus" ("restaurant_id", "dish_item", "price", "calories", "img", "description", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["restaurant_id", 5], ["dish_item", "Bolognese"], ["price", 15.0], ["calories", 654.0], ["img", "https://roma-way.com/wp-content/uploads/2018/10/kids_m_1-364x250.jpg"], ["description", "Spaghetti and meet sauce"], ["created_at", "2019-01-31 11:50:25.852456"], ["updated_at", "2019-01-31 11:50:25.852456"]]
+  ↳ db/seeds.rb:113
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:113
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:119
+  [1m[36mUser Exists (1.7ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "t-matar@windowslive.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:119
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("firstt_name", "last_name", "email", "password_digest", "auth_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["firstt_name", "Turki"], ["last_name", "alomari"], ["email", "t-matar@windowslive.com"], ["password_digest", "$2a$10$Qg7Not4Ts../Gs.QeNyO8uoyJyYMFUvEPxVZaMONlA5rQrcEUUwsC"], ["auth_token", "xea4bKmHcmNyZ32uTgLUGD3M"], ["created_at", "2019-01-31 11:50:25.923606"], ["updated_at", "2019-01-31 11:50:25.923606"]]
+  ↳ db/seeds.rb:119
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:119
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 14:50:38 +0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/mac/.rvm/gems/ruby-2.6.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by MenusController#index as */*
+  Parameters: {"id"=>4, "content"=>"The expert at anything was once a beginner1111.", "author"=>"Helen Hayes", "category"=>"education", "created_at"=>"2019-01-23T14:46:27.287Z", "updated_at"=>"2019-01-23T14:46:27.287Z", "menu"=>{"id"=>4, "created_at"=>"2019-01-23T14:46:27.287Z", "updated_at"=>"2019-01-23T14:46:27.287Z"}}
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/menus_controller.rb:14
+Completed 200 OK in 14ms (Views: 7.3ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/restaurant" for 127.0.0.1 at 2019-01-31 14:51:37 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/restaurant"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/restaurants" for 127.0.0.1 at 2019-01-31 14:51:44 +0300
+Processing by RestaurantsController#index as */*
+  Parameters: {"id"=>4, "content"=>"The expert at anything was once a beginner1111.", "author"=>"Helen Hayes", "category"=>"education", "created_at"=>"2019-01-23T14:46:27.287Z", "updated_at"=>"2019-01-23T14:46:27.287Z", "restaurant"=>{"id"=>4, "created_at"=>"2019-01-23T14:46:27.287Z", "updated_at"=>"2019-01-23T14:46:27.287Z"}}
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/restaurants_controller.rb:7
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 15:10:55 +0300
+Processing by MenusController#index as HTML
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/menus_controller.rb:14
+Completed 200 OK in 5ms (Views: 1.6ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 15:40:34 +0300
+Processing by MenusController#index as */*
+  Parameters: {"id"=>4, "content"=>"The expert at anything was once a beginner1111.", "author"=>"Helen Hayes", "category"=>"education", "created_at"=>"2019-01-23T14:46:27.287Z", "updated_at"=>"2019-01-23T14:46:27.287Z", "menu"=>{"id"=>4, "created_at"=>"2019-01-23T14:46:27.287Z", "updated_at"=>"2019-01-23T14:46:27.287Z"}}
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/menus_controller.rb:14
+Completed 200 OK in 16ms (Views: 7.2ms | ActiveRecord: 6.4ms)
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2019-01-31 15:41:14 +0300
+Processing by RestaurantsController#index as */*
+  Parameters: {"id"=>4, "content"=>"The expert at anything was once a beginner1111.", "author"=>"Helen Hayes", "category"=>"education", "created_at"=>"2019-01-23T14:46:27.287Z", "updated_at"=>"2019-01-23T14:46:27.287Z", "restaurant"=>{"id"=>4, "created_at"=>"2019-01-23T14:46:27.287Z", "updated_at"=>"2019-01-23T14:46:27.287Z"}}
+  [1m[36mRestaurant Load (4.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/restaurants_controller.rb:7
+Completed 200 OK in 7ms (Views: 2.0ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2019-01-31 15:41:17 +0300
+Processing by RestaurantsController#index as */*
+  Parameters: {"id"=>4, "content"=>"The expert at anything was once a beginner1111.", "author"=>"Helen Hayes", "category"=>"education", "created_at"=>"2019-01-23T14:46:27.287Z", "updated_at"=>"2019-01-23T14:46:27.287Z", "restaurant"=>{"id"=>4, "created_at"=>"2019-01-23T14:46:27.287Z", "updated_at"=>"2019-01-23T14:46:27.287Z"}}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/restaurants_controller.rb:7
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 15:41:22 +0300
+Processing by MenusController#index as */*
+  Parameters: {"id"=>4, "content"=>"The expert at anything was once a beginner1111.", "author"=>"Helen Hayes", "category"=>"education", "created_at"=>"2019-01-23T14:46:27.287Z", "updated_at"=>"2019-01-23T14:46:27.287Z", "menu"=>{"id"=>4, "created_at"=>"2019-01-23T14:46:27.287Z", "updated_at"=>"2019-01-23T14:46:27.287Z"}}
+  [1m[36mRestaurant Load (1.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/menus_controller.rb:14
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 15:41:47 +0300
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/mac/.rvm/gems/ruby-2.6.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by MenusController#index as */*
+  Parameters: {"id"=>4, "content"=>"The expert at anything was once a beginner1111.", "author"=>"Helen Hayes", "category"=>"education", "created_at"=>"2019-01-23T14:46:27.287Z", "updated_at"=>"2019-01-23T14:46:27.287Z", "menu"=>{"id"=>4, "created_at"=>"2019-01-23T14:46:27.287Z", "updated_at"=>"2019-01-23T14:46:27.287Z"}}
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/menus_controller.rb:14
+Completed 200 OK in 15ms (Views: 6.9ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2019-01-31 15:41:57 +0300
+Processing by RestaurantsController#index as */*
+  Parameters: {"id"=>4, "content"=>"The expert at anything was once a beginner1111.", "author"=>"Helen Hayes", "category"=>"education", "created_at"=>"2019-01-23T14:46:27.287Z", "updated_at"=>"2019-01-23T14:46:27.287Z", "restaurant"=>{"id"=>4, "created_at"=>"2019-01-23T14:46:27.287Z", "updated_at"=>"2019-01-23T14:46:27.287Z"}}
+  [1m[36mRestaurant Load (11.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/restaurants_controller.rb:7
+Completed 200 OK in 14ms (Views: 2.5ms | ActiveRecord: 11.1ms)
+
+
+Started GET "/menu" for 127.0.0.1 at 2019-01-31 15:42:03 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/menu"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 15:42:06 +0300
+Processing by MenusController#index as */*
+  Parameters: {"id"=>4, "content"=>"The expert at anything was once a beginner1111.", "author"=>"Helen Hayes", "category"=>"education", "created_at"=>"2019-01-23T14:46:27.287Z", "updated_at"=>"2019-01-23T14:46:27.287Z", "menu"=>{"id"=>4, "created_at"=>"2019-01-23T14:46:27.287Z", "updated_at"=>"2019-01-23T14:46:27.287Z"}}
+  [1m[36mRestaurant Load (1.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/menus_controller.rb:14
+Completed 200 OK in 4ms (Views: 1.6ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2019-01-31 15:44:20 +0300
+Processing by RestaurantsController#index as */*
+  Parameters: {"id"=>4, "content"=>"The expert at anything was once a beginner1111.", "author"=>"Helen Hayes", "category"=>"education", "created_at"=>"2019-01-23T14:46:27.287Z", "updated_at"=>"2019-01-23T14:46:27.287Z", "restaurant"=>{"id"=>4, "created_at"=>"2019-01-23T14:46:27.287Z", "updated_at"=>"2019-01-23T14:46:27.287Z"}}
+  [1m[36mRestaurant Load (5.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/restaurants_controller.rb:7
+Completed 200 OK in 7ms (Views: 1.4ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2019-01-31 15:44:31 +0300
+Processing by RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/restaurants_controller.rb:7
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2019-01-31 15:48:38 +0300
+Processing by RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/restaurants_controller.rb:7
+Completed 200 OK in 13ms (Views: 4.9ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2019-01-31 15:49:03 +0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/mac/.rvm/gems/ruby-2.6.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/restaurants_controller.rb:7
+Completed 200 OK in 14ms (Views: 5.4ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/restaurants" for 127.0.0.1 at 2019-01-31 15:49:43 +0300
+Processing by RestaurantsController#index as HTML
+  [1m[36mRestaurant Load (0.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants"[0m
+  ↳ app/controllers/restaurants_controller.rb:7
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 15:49:53 +0300
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (1.9ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 23ms (Views: 10.1ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 16:45:16 +0300
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.9ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 15ms (Views: 8.6ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 16:49:06 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (12.7ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 29ms (Views: 12.4ms | ActiveRecord: 12.7ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 16:49:26 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 16:49:42 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 16:49:44 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.5ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 16:50:03 +0300
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 16:52:26 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.2ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 16:52:38 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 17:00:51 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (1.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 17ms (Views: 8.6ms | ActiveRecord: 7.9ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 17:04:22 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 17:04:29 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.5ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 17:05:56 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 17:05:58 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.2ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 17:06:15 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (1.6ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 17:08:05 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 17:08:09 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (4.5ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 12ms (Views: 6.6ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 17:09:17 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (1.0ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 17:10:04 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 17:10:39 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (1.1ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 17:11:42 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (1.5ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 17:14:52 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (1.2ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 31ms (Views: 24.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 17:14:57 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 17:15:51 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 17:15:57 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.2ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 17:18:08 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 17:18:09 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (1.5ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 17:18:26 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.5ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 17:18:57 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 17:19:32 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (1.2ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 17:20:22 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.2ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 17:21:18 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 17:22:09 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 17:22:11 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (1.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 17:22:14 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.5ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 44ms (Views: 43.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 17:25:51 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (8.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 30ms (Views: 19.1ms | ActiveRecord: 8.4ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 17:26:03 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.5ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 17:39:24 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (1.2ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 18ms (Views: 9.9ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 17:39:56 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 17:41:32 +0300
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.8ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 17:46:14 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 17:46:19 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 17:46:23 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-01-31 17:46:29 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-01 15:45:59 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (1.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 24ms (Views: 13.4ms | ActiveRecord: 8.1ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-01 15:46:39 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-01 15:49:28 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (1.1ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-01 15:49:58 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.6ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-01 15:50:06 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.2ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-01 15:50:57 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-01 15:52:20 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-03 13:13:33 +0300
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/mac/.rvm/gems/ruby-2.6.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.6ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 27ms (Views: 11.7ms | ActiveRecord: 9.0ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-03 13:14:20 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-03 13:18:42 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.7ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-03 13:19:26 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.6ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-03 13:19:44 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (1.1ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-03 13:31:10 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.8ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 9ms (Views: 3.4ms | ActiveRecord: 5.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-03 13:31:36 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/mac/.rvm/gems/ruby-2.6.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.6.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb (4.7ms)
+Completed 200 OK in 15ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-03 13:31:44 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-03 14:18:53 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (2.8ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 21ms (Views: 10.0ms | ActiveRecord: 7.5ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-03 14:19:48 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-03 14:20:19 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 60ms (Views: 59.5ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-02-03 16:25:33 +0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/mac/.rvm/gems/ruby-2.6.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Error occurred while parsing request parameters.
+Contents:
+
+{
+	
+	"Users":{
+		"firstt_name": "turki"
+		"last_name": "adel"
+		"email": "t-matr@windowslive.com"
+		"password": "skjhfjkfj"
+
+		
+	}
+}
+  
+ActionDispatch::Http::Parameters::ParseError (767: unexpected token at '{
+	
+	"Users":{
+		"firstt_name": "turki"
+		"last_name": "adel"
+		"email": "t-matr@windowslive.com"
+		"password": "skjhfjkfj"
+
+		
+	}
+}'):
+  
+actionpack (5.2.2) lib/action_dispatch/http/parameters.rb:117:in `rescue in parse_formatted_parameters'
+actionpack (5.2.2) lib/action_dispatch/http/parameters.rb:111:in `parse_formatted_parameters'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:381:in `block in POST'
+rack (2.0.6) lib/rack/request.rb:59:in `fetch'
+rack (2.0.6) lib/rack/request.rb:59:in `fetch_header'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:380:in `POST'
+actionpack (5.2.2) lib/action_dispatch/http/parameters.rb:55:in `parameters'
+actionpack (5.2.2) lib/action_controller/metal/params_wrapper.rb:290:in `_wrapper_enabled?'
+actionpack (5.2.2) lib/action_controller/metal/params_wrapper.rb:244:in `process_action'
+activerecord (5.2.2) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:134:in `process'
+actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started POST "/users" for 127.0.0.1 at 2019-02-03 16:26:44 +0300
+Error occurred while parsing request parameters.
+Contents:
+
+{
+	
+	"User":{
+		"firstt_name": "turki"
+		"last_name": "adel"
+		"email": "t-matr@windowslive.com"
+		"password": "skjhfjkfj"
+
+		
+	}
+}
+  
+ActionDispatch::Http::Parameters::ParseError (767: unexpected token at '{
+	
+	"User":{
+		"firstt_name": "turki"
+		"last_name": "adel"
+		"email": "t-matr@windowslive.com"
+		"password": "skjhfjkfj"
+
+		
+	}
+}'):
+  
+actionpack (5.2.2) lib/action_dispatch/http/parameters.rb:117:in `rescue in parse_formatted_parameters'
+actionpack (5.2.2) lib/action_dispatch/http/parameters.rb:111:in `parse_formatted_parameters'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:381:in `block in POST'
+rack (2.0.6) lib/rack/request.rb:59:in `fetch'
+rack (2.0.6) lib/rack/request.rb:59:in `fetch_header'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:380:in `POST'
+actionpack (5.2.2) lib/action_dispatch/http/parameters.rb:55:in `parameters'
+actionpack (5.2.2) lib/action_controller/metal/params_wrapper.rb:290:in `_wrapper_enabled?'
+actionpack (5.2.2) lib/action_controller/metal/params_wrapper.rb:244:in `process_action'
+activerecord (5.2.2) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:134:in `process'
+actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started POST "/users" for 127.0.0.1 at 2019-02-03 16:27:19 +0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/mac/.rvm/gems/ruby-2.6.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Error occurred while parsing request parameters.
+Contents:
+
+{
+	
+	"User":{
+		"firstt_name": "turki"
+		"last_name": "adel"
+		"email": "t-matr@windowslive.com"
+		"password": "skjhfjkfj"
+
+		
+	}
+}
+  
+ActionDispatch::Http::Parameters::ParseError (767: unexpected token at '{
+	
+	"User":{
+		"firstt_name": "turki"
+		"last_name": "adel"
+		"email": "t-matr@windowslive.com"
+		"password": "skjhfjkfj"
+
+		
+	}
+}'):
+  
+actionpack (5.2.2) lib/action_dispatch/http/parameters.rb:117:in `rescue in parse_formatted_parameters'
+actionpack (5.2.2) lib/action_dispatch/http/parameters.rb:111:in `parse_formatted_parameters'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:381:in `block in POST'
+rack (2.0.6) lib/rack/request.rb:59:in `fetch'
+rack (2.0.6) lib/rack/request.rb:59:in `fetch_header'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:380:in `POST'
+actionpack (5.2.2) lib/action_dispatch/http/parameters.rb:55:in `parameters'
+actionpack (5.2.2) lib/action_controller/metal/params_wrapper.rb:290:in `_wrapper_enabled?'
+actionpack (5.2.2) lib/action_controller/metal/params_wrapper.rb:244:in `process_action'
+activerecord (5.2.2) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:134:in `process'
+actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started POST "/users" for 127.0.0.1 at 2019-02-03 16:29:46 +0300
+Processing by UsersController#create as */*
+  Parameters: {"User"=>{"firstt_name"=>"turki", "last_name"=>"adel", "email"=>"t-matr@windowslive.com", "password"=>"[FILTERED]"}, "user"=>{}}
+Completed 400 Bad Request in 1ms (ActiveRecord: 5.7ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:24:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for 127.0.0.1 at 2019-02-03 16:30:01 +0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/mac/.rvm/gems/ruby-2.6.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#create as */*
+  Parameters: {"User"=>{"firstt_name"=>"turki", "last_name"=>"adel", "email"=>"t-matr@windowslive.com", "password"=>"[FILTERED]"}, "user"=>{}}
+Completed 400 Bad Request in 0ms (ActiveRecord: 2.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:24:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for 127.0.0.1 at 2019-02-03 16:30:20 +0300
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"firstt_name"=>"turki", "last_name"=>"adel", "email"=>"t-matr@windowslive.com", "password"=>"[FILTERED]"}}
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:18
+  [1m[36mUser Exists (8.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "t-matr@windowslive.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:18
+  [1m[36mUser Create (3.7ms)[0m  [1m[32mINSERT INTO "users" ("firstt_name", "last_name", "email", "password_digest", "auth_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["firstt_name", "turki"], ["last_name", "adel"], ["email", "t-matr@windowslive.com"], ["password_digest", "$2a$10$81CEI4V92QYABqfX7WKLF.rXL0uEwy/.7Q9Cochf/6GB9QwOD6xZi"], ["auth_token", "ZuYyA64zncBBkZAyuVvh8zhx"], ["created_at", "2019-02-03 13:30:20.585121"], ["updated_at", "2019-02-03 13:30:20.585121"]]
+  ↳ app/controllers/users_controller.rb:18
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:18
+Completed 200 OK in 102ms (Views: 0.4ms | ActiveRecord: 29.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-03 16:45:41 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/mac/.rvm/gems/ruby-2.6.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.6.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb (3.1ms)
+Completed 200 OK in 14ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-03 16:54:03 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.7ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 54ms (Views: 35.2ms | ActiveRecord: 12.0ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-03 16:54:44 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-03 16:56:55 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-03 16:57:38 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-03 16:58:04 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.2ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-03 17:00:41 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (1.0ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-03 17:01:46 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.5ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-03 17:01:49 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-03 17:05:24 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (2.7ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 7ms (Views: 3.9ms | ActiveRecord: 2.7ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-02-03 17:29:48 +0300
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"firstt_name"=>"turki", "last_name"=>"adel", "email"=>"t-matr@windowslive.com", "password"=>"[FILTERED]"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:18
+  [1m[36mUser Exists (0.9ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "t-matr@windowslive.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:18
+  [1m[35m (4.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:18
+Completed 422 Unprocessable Entity in 96ms (ActiveRecord: 5.2ms)
+
+
+  
+ActiveRecord::RecordInvalid (Validation failed: Email has already been taken):
+  
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for 127.0.0.1 at 2019-02-03 17:30:06 +0300
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"firstt_name"=>"turhki", "last_name"=>"adel", "email"=>"t-magtr@windowslive.com", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:18
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "t-magtr@windowslive.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:18
+  [1m[36mUser Create (1.9ms)[0m  [1m[32mINSERT INTO "users" ("firstt_name", "last_name", "email", "password_digest", "auth_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["firstt_name", "turhki"], ["last_name", "adel"], ["email", "t-magtr@windowslive.com"], ["password_digest", "$2a$10$nypstJDnR2rHrlWXEaIYMuFP7uTsdGpZilq71JmKhG5hJmGEmDZmC"], ["auth_token", "epSiVispLXTQRLHkWRpJJWb1"], ["created_at", "2019-02-03 14:30:06.381569"], ["updated_at", "2019-02-03 14:30:06.381569"]]
+  ↳ app/controllers/users_controller.rb:18
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:18
+Completed 200 OK in 67ms (Views: 1.5ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/routes" for 127.0.0.1 at 2019-02-03 17:30:55 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/routes"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started POST "/login" for 127.0.0.1 at 2019-02-03 17:32:03 +0300
+  
+ActionController::RoutingError (uninitialized constant SessionsController):
+  
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:74:in `block in load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:8:in `without_bootsnap_cache'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:74:in `rescue in load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:56:in `load_missing_constant'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started POST "/login" for 127.0.0.1 at 2019-02-03 17:41:33 +0300
+  
+LoadError (Unable to autoload constant SessionsController, expected /Users/mac/code/wdi/Projects/Project-4/project4/healthy-back-end-app/app/controllers/sessions_controller.rb to define it):
+  
+activesupport (5.2.2) lib/active_support/dependencies.rb:511:in `load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:58:in `block in load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:16:in `allow_bootsnap_retry'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:57:in `load_missing_constant'
+activesupport (5.2.2) lib/active_support/dependencies.rb:195:in `const_missing'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `constantize'
+activesupport (5.2.2) lib/active_support/dependencies.rb:582:in `get'
+activesupport (5.2.2) lib/active_support/dependencies.rb:613:in `constantize'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.2) lib/action_dispatch/http/parameters.rb:101:in `binary_params_for?'
+actionpack (5.2.2) lib/action_dispatch/http/parameters.rb:92:in `set_binary_encoding'
+actionpack (5.2.2) lib/action_dispatch/http/parameters.rb:69:in `path_parameters='
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/menus" for 127.0.0.1 at 2019-02-03 18:01:38 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (10.2ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 71ms (Views: 22.7ms | ActiveRecord: 36.2ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-03 18:02:16 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-03 18:02:21 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.7ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-03 18:05:03 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-03 18:06:03 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.2ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-03 18:06:10 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-03 18:07:02 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-03 18:11:21 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.9ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-03 18:14:06 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 09:38:15 +0300
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/mac/.rvm/gems/ruby-2.6.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (2.2ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 23ms (Views: 10.0ms | ActiveRecord: 8.6ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 10:43:02 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.8ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 11ms (Views: 4.0ms | ActiveRecord: 6.6ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 10:55:30 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.7ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 7ms (Views: 3.2ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 11:04:27 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.6ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 9ms (Views: 3.6ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 11:25:28 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (1.7ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 8ms (Views: 3.1ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 11:45:33 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.8ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 14ms (Views: 3.8ms | ActiveRecord: 9.9ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 11:52:37 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.9ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 7ms (Views: 2.4ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 11:54:21 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 12:24:12 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.5ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 7ms (Views: 1.9ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 12:26:23 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 13:02:33 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (1.0ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 9ms (Views: 3.0ms | ActiveRecord: 6.2ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 13:07:08 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-02-04 13:33:04 +0300
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"firstt_name"=>"turhki", "last_name"=>"adel", "email"=>"t-magtr@windowslive.com", "password"=>"[FILTERED]"}}
+  [1m[35m (1.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:18
+  [1m[36mUser Exists (6.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "t-magtr@windowslive.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:18
+  [1m[35m (3.7ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:18
+Completed 422 Unprocessable Entity in 123ms (ActiveRecord: 23.3ms)
+
+
+  
+ActiveRecord::RecordInvalid (Validation failed: Email has already been taken):
+  
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for 127.0.0.1 at 2019-02-04 13:33:12 +0300
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"firstt_name"=>"turhki", "last_name"=>"adel", "email"=>"t-mahgtr@windowslive.com", "password"=>"[FILTERED]"}}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:18
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "t-mahgtr@windowslive.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:18
+  [1m[36mUser Create (6.0ms)[0m  [1m[32mINSERT INTO "users" ("firstt_name", "last_name", "email", "password_digest", "auth_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["firstt_name", "turhki"], ["last_name", "adel"], ["email", "t-mahgtr@windowslive.com"], ["password_digest", "$2a$10$0CR66d50EyZTS4FYKNjJ.ucUg0tJ6GtBx7mZfMj9DSHiDpB1c9K6O"], ["auth_token", "NyYtr1hfoVTbcFoZiDa78oUq"], ["created_at", "2019-02-04 10:33:12.406423"], ["updated_at", "2019-02-04 10:33:12.406423"]]
+  ↳ app/controllers/users_controller.rb:18
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:18
+Completed 200 OK in 83ms (Views: 1.0ms | ActiveRecord: 7.8ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 13:35:13 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (7.8ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 14ms (Views: 3.5ms | ActiveRecord: 10.4ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 13:35:39 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (1.1ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 13:36:05 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (1.6ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 1.6ms)
+
+
+Started OPTIONS "/users" for 127.0.0.1 at 2019-02-04 13:36:20 +0300
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/users"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started OPTIONS "/users" for 127.0.0.1 at 2019-02-04 13:37:30 +0300
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/users"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started OPTIONS "/users" for 127.0.0.1 at 2019-02-04 13:37:40 +0300
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/users"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started OPTIONS "/users" for 127.0.0.1 at 2019-02-04 13:37:50 +0300
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/users"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started OPTIONS "/users" for 127.0.0.1 at 2019-02-04 13:37:53 +0300
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/users"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started OPTIONS "/users" for 127.0.0.1 at 2019-02-04 13:37:58 +0300
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/users"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 13:38:38 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (4.0ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 7ms (Views: 2.4ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 13:38:48 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.6ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.6ms)
+
+
+Started OPTIONS "/users" for 127.0.0.1 at 2019-02-04 13:38:59 +0300
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/users"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started POST "/users" for 127.0.0.1 at 2019-02-04 13:43:02 +0300
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"firstt_name"=>"turhki", "last_name"=>"adel", "email"=>"t-mahgtr@windowslive.com", "password"=>"[FILTERED]"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:18
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "t-mahgtr@windowslive.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:18
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:18
+Completed 422 Unprocessable Entity in 61ms (ActiveRecord: 0.6ms)
+
+
+  
+ActiveRecord::RecordInvalid (Validation failed: Email has already been taken):
+  
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for 127.0.0.1 at 2019-02-04 13:43:08 +0300
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"firstt_name"=>"turhki", "last_name"=>"adel", "email"=>"t-mafhgtr@windowslive.com", "password"=>"[FILTERED]"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:18
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "t-mafhgtr@windowslive.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:18
+  [1m[36mUser Create (1.5ms)[0m  [1m[32mINSERT INTO "users" ("firstt_name", "last_name", "email", "password_digest", "auth_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["firstt_name", "turhki"], ["last_name", "adel"], ["email", "t-mafhgtr@windowslive.com"], ["password_digest", "$2a$10$jfNNz9o1iLGylDZjWKmg0OsSpBTSb8J5AA9CI9AHOikLpLmOBT7te"], ["auth_token", "8h82LcrqcmMa23yogVaYpdbP"], ["created_at", "2019-02-04 10:43:08.230976"], ["updated_at", "2019-02-04 10:43:08.230976"]]
+  ↳ app/controllers/users_controller.rb:18
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:18
+Completed 200 OK in 62ms (Views: 0.3ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 13:44:17 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (2.2ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 5ms (Views: 2.3ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 13:44:55 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (9.5ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 12ms (Views: 1.8ms | ActiveRecord: 9.5ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 13:45:11 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.3ms)
+
+
+Started OPTIONS "/users" for 127.0.0.1 at 2019-02-04 13:45:29 +0300
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/users"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 13:46:07 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.6ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 13:46:35 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.4ms)
+
+
+Started OPTIONS "/users" for 127.0.0.1 at 2019-02-04 13:46:41 +0300
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/users"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 13:48:29 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.8ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 13:48:29 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.5ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 13:48:29 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (3.0ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 6ms (Views: 2.8ms | ActiveRecord: 3.0ms)
+
+
+Started OPTIONS "/users" for 127.0.0.1 at 2019-02-04 13:48:37 +0300
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/users"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 13:50:19 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 13:50:19 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 13:50:19 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 13:50:22 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 13:50:22 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.6ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 13:50:22 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.5ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-02-04 13:50:31 +0300
+Processing by UsersController#create as */*
+  Parameters: {"{\"user\":{\"email\":\"k.jurashi@gmail.com\",\"password\":\"jkl\",\"name\":\"Khalid Fahad Aljurashi\"}}"=>"[FILTERED]"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:24:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 13:50:56 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 13:50:56 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 13:50:56 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 13:52:12 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 13:52:12 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (1.5ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 13:52:12 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.3ms)
+
+
+Started OPTIONS "/users" for 127.0.0.1 at 2019-02-04 13:52:20 +0300
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/users"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 13:52:33 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (2.6ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 6ms (Views: 2.8ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 13:52:33 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (2.5ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 6ms (Views: 3.4ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 13:52:33 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-02-04 13:52:40 +0300
+Processing by UsersController#create as */*
+  Parameters: {"{\"user\":{\"email\":\"kl\",\"password\":\"kl;\",\"name\":\"Khalid Fahad Aljurashi\"}}"=>"[FILTERED]"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:24:in `user_params'
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/users" for 127.0.0.1 at 2019-02-04 13:57:41 +0300
+  [1m[35m (3.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/mac/.rvm/gems/ruby-2.6.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#create as */*
+  Parameters: {"{\"user\":{\"email\":\"kl\",\"password\":\"kl;\",\"name\":\"Khalid Fahad Aljurashi\"}}"=>"[FILTERED]"}
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:21:in `user_params'
+app/controllers/users_controller.rb:15:in `create'
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 13:57:51 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.7ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 25ms (Views: 12.6ms | ActiveRecord: 6.2ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 13:57:59 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 13:58:08 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.7ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 13:59:07 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.7ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 13:59:07 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 13:59:07 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 13:59:12 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (1.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 33ms (Views: 31.7ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:00:05 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.5ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:00:05 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:00:05 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.5ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:01:04 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:01:57 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:01:57 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:01:57 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:02:03 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:04:39 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:04:39 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:04:39 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-02-04 14:04:52 +0300
+Processing by UsersController#create as */*
+  Parameters: {"{\"user\":{\"email\":\"k.jurashi@gmail.com\",\"password\":\"hgjh\",\"name\":\"Khalid Fahad Aljurashi\"}}"=>"[FILTERED]"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:21:in `user_params'
+app/controllers/users_controller.rb:15:in `create'
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:05:39 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:05:40 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:05:40 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:05:46 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:05:46 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (36.1ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 39ms (Views: 2.8ms | ActiveRecord: 36.1ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:05:46 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-02-04 14:05:55 +0300
+Processing by UsersController#create as */*
+  Parameters: {"{\"user\":{\"email\":\"grdt\",\"password\":\"gfd\",\"name\":\"Khalid Fahad Aljurashi\"}}"=>"[FILTERED]"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:21:in `user_params'
+app/controllers/users_controller.rb:15:in `create'
+Started POST "/users" for 127.0.0.1 at 2019-02-04 14:06:56 +0300
+Processing by UsersController#create as */*
+  Parameters: {"{\"user\":{\"email\":\"grdt\",\"password\":\"gfd\",\"name\":\"Khalid Fahad Aljurashi\"}}"=>"[FILTERED]"}
+Completed 400 Bad Request in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:21:in `user_params'
+app/controllers/users_controller.rb:15:in `create'
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:09:05 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (1.0ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 32ms (Views: 23.1ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:09:06 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:09:06 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (9.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 12ms (Views: 2.4ms | ActiveRecord: 9.4ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:10:08 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.5ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:10:08 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.8ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:10:08 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-02-04 14:10:17 +0300
+Processing by UsersController#create as */*
+  Parameters: {"{\"user\":{\"email\":\"k.jurashi@gmail.com\",\"password\":\"jhkjk\",\"firstt_name\":\"Khalid\",\"last_name\":\"Aljurashi\"}}"=>"[FILTERED]"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:21:in `user_params'
+app/controllers/users_controller.rb:15:in `create'
+Started POST "/users" for 127.0.0.1 at 2019-02-04 14:11:09 +0300
+Processing by UsersController#create as */*
+  Parameters: {"{\"user\":{\"email\":\"k.jurashi@gmail.com\",\"password\":\"jhkjk\",\"firstt_name\":\"Khalid\",\"last_name\":\"Aljurashi\"}}"=>"[FILTERED]"}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/users_controller.rb:23:in `user_params'
+app/controllers/users_controller.rb:16:in `create'
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:11:39 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (3.5ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 33ms (Views: 14.4ms | ActiveRecord: 15.2ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:11:39 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.8ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:11:39 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (1.0ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-02-04 14:11:50 +0300
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"email"=>"k.jurjashi@gmail.com", "password"=>"[FILTERED]", "firstt_name"=>"Khalid", "last_name"=>"Aljurashi"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:17
+  [1m[36mUser Exists (0.9ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "k.jurjashi@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:17
+  [1m[36mUser Create (3.8ms)[0m  [1m[32mINSERT INTO "users" ("firstt_name", "last_name", "email", "password_digest", "auth_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["firstt_name", "Khalid"], ["last_name", "Aljurashi"], ["email", "k.jurjashi@gmail.com"], ["password_digest", "$2a$10$0JLt4VV65yDTwtG8TrBo1eA3UUYgplmUNjJIXQbojE/sHKg6zhlIm"], ["auth_token", "WsGnfdHeqJd12xEpERRR8sDx"], ["created_at", "2019-02-04 11:11:50.946072"], ["updated_at", "2019-02-04 11:11:50.946072"]]
+  ↳ app/controllers/users_controller.rb:17
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:17
+Completed 200 OK in 79ms (Views: 0.6ms | ActiveRecord: 8.2ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:14:09 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (20.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 23ms (Views: 2.7ms | ActiveRecord: 20.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:14:09 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:14:09 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-02-04 14:14:45 +0300
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"email"=>"gd", "password"=>"[FILTERED]", "firstt_name"=>"dg", "last_name"=>"gd"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:17
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "gd"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:17
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("firstt_name", "last_name", "email", "password_digest", "auth_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["firstt_name", "dg"], ["last_name", "gd"], ["email", "gd"], ["password_digest", "$2a$10$8H0I2PBhZFyAn8nUFTYeReTZRS4kdTME3DoWEzKDQH7GSgYouz/jW"], ["auth_token", "mLQQRosYS1eb7NKGas4VFydn"], ["created_at", "2019-02-04 11:14:45.286315"], ["updated_at", "2019-02-04 11:14:45.286315"]]
+  ↳ app/controllers/users_controller.rb:17
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:17
+Completed 200 OK in 63ms (Views: 0.4ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:15:31 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (4.6ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 8ms (Views: 3.4ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:15:31 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.8ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:15:31 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-02-04 14:15:39 +0300
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"email"=>"dgf", "password"=>"[FILTERED]", "firstt_name"=>"Khalid", "last_name"=>"Aljurashi"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:17
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "dgf"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:17
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("firstt_name", "last_name", "email", "password_digest", "auth_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["firstt_name", "Khalid"], ["last_name", "Aljurashi"], ["email", "dgf"], ["password_digest", "$2a$10$zQubHtdkfI5KMHMWWIms/uBVQRh5VL.u2/iheUYuFZ7XqgAKRP0Zq"], ["auth_token", "qhGE9zkygK2S199qnEgxMfG2"], ["created_at", "2019-02-04 11:15:39.104271"], ["updated_at", "2019-02-04 11:15:39.104271"]]
+  ↳ app/controllers/users_controller.rb:17
+  [1m[35m (1.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:17
+Completed 200 OK in 66ms (Views: 0.3ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:17:00 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (8.1ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 12ms (Views: 3.5ms | ActiveRecord: 8.1ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:17:00 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:17:00 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (19.7ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 23ms (Views: 2.5ms | ActiveRecord: 19.7ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:18:17 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (2.1ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 6ms (Views: 3.2ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:18:17 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:18:17 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.5ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-02-04 14:18:28 +0300
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"email"=>"k.juragshi@gmail.com", "password"=>"[FILTERED]", "firstt_name"=>"Khalid", "last_name"=>"Aljurashi"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:17
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "k.juragshi@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:17
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("firstt_name", "last_name", "email", "password_digest", "auth_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["firstt_name", "Khalid"], ["last_name", "Aljurashi"], ["email", "k.juragshi@gmail.com"], ["password_digest", "$2a$10$.JoD2HR0eqYTZ/haMKaN5.26BzIYXFJPq8rhiP.NV8OHNLPBqhyj6"], ["auth_token", "Dw7iyve9bQGpjRpWotZEDTrc"], ["created_at", "2019-02-04 11:18:28.202614"], ["updated_at", "2019-02-04 11:18:28.202614"]]
+  ↳ app/controllers/users_controller.rb:17
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:17
+Completed 200 OK in 62ms (Views: 0.5ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:18:57 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:18:57 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:18:57 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.5ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:19:10 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-02-04 14:19:16 +0300
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"email"=>"jhkj", "password"=>"[FILTERED]", "firstt_name"=>"Khalid", "last_name"=>"Aljurashi"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:17
+  [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "jhkj"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:17
+  [1m[36mUser Create (1.9ms)[0m  [1m[32mINSERT INTO "users" ("firstt_name", "last_name", "email", "password_digest", "auth_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["firstt_name", "Khalid"], ["last_name", "Aljurashi"], ["email", "jhkj"], ["password_digest", "$2a$10$XKknZjDpxcpsYaDwnknrzOSsLUUENplfrc73YuVAO12dZENMBxS.m"], ["auth_token", "CTUFqFbhrBCwwyAQ56WbTrWw"], ["created_at", "2019-02-04 11:19:16.294328"], ["updated_at", "2019-02-04 11:19:16.294328"]]
+  ↳ app/controllers/users_controller.rb:17
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:17
+Completed 200 OK in 63ms (Views: 0.3ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:20:41 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:20:42 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:20:42 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.6ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 14:21:08 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.2ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-02-04 14:21:23 +0300
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"email"=>"k.jiiurashi@gmail.com", "password"=>"[FILTERED]", "firstt_name"=>"Khalidhhhh", "last_name"=>"Aljurashi"}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:17
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "k.jiiurashi@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:17
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("firstt_name", "last_name", "email", "password_digest", "auth_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["firstt_name", "Khalidhhhh"], ["last_name", "Aljurashi"], ["email", "k.jiiurashi@gmail.com"], ["password_digest", "$2a$10$Gnrsr1p2LpkofSfey78DN.RcohHyM.2yQz/pEQrykhBLPBsbIU8lG"], ["auth_token", "FiZb3315SCVdyz5vPZMf5kiZ"], ["created_at", "2019-02-04 11:21:23.757395"], ["updated_at", "2019-02-04 11:21:23.757395"]]
+  ↳ app/controllers/users_controller.rb:17
+  [1m[35m (1.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:17
+Completed 200 OK in 65ms (Views: 0.3ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 16:57:44 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (1.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 34ms (Views: 19.5ms | ActiveRecord: 9.8ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 16:57:44 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 16:57:45 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-02-04 17:00:21 +0300
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"email"=>"k.jurastftftfi@gmail.com", "password"=>"[FILTERED]", "firstt_name"=>"Khalid", "last_name"=>"Aljurashi"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:17
+  [1m[36mUser Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "k.jurastftftfi@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:17
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("firstt_name", "last_name", "email", "password_digest", "auth_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["firstt_name", "Khalid"], ["last_name", "Aljurashi"], ["email", "k.jurastftftfi@gmail.com"], ["password_digest", "$2a$10$J0ioO3GMEvaw7pBYBePs.erg8b0MQked2HEITwLEpAk8UBMIvzJdS"], ["auth_token", "8rj9k2xN79u6amo4Tzpf4Gio"], ["created_at", "2019-02-04 14:00:22.058393"], ["updated_at", "2019-02-04 14:00:22.058393"]]
+  ↳ app/controllers/users_controller.rb:17
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:17
+Completed 200 OK in 82ms (Views: 0.4ms | ActiveRecord: 6.3ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-02-04 17:04:33 +0300
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"email"=>"k.jurastftftfi@gmail.com", "password"=>"[FILTERED]", "firstt_name"=>"Khalid", "last_name"=>"Aljurashi"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:17
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "k.jurastftftfi@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:17
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:17
+Completed 422 Unprocessable Entity in 66ms (ActiveRecord: 0.6ms)
+
+
+  
+ActiveRecord::RecordInvalid (Validation failed: Email has already been taken):
+  
+app/controllers/users_controller.rb:17:in `create'
+Started GET "/menus" for 127.0.0.1 at 2019-02-04 17:04:49 +0300
+Processing by MenusController#index as */*
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-02-04 17:05:04 +0300
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"email"=>"cecc", "password"=>"[FILTERED]", "firstt_name"=>"cec", "last_name"=>"ece"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:17
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "cecc"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:17
+  [1m[36mUser Create (2.5ms)[0m  [1m[32mINSERT INTO "users" ("firstt_name", "last_name", "email", "password_digest", "auth_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["firstt_name", "cec"], ["last_name", "ece"], ["email", "cecc"], ["password_digest", "$2a$10$l2XbyUsamnKBg8mteP1MlO9k.KQGcDiEt4xRp1NQaeEqBIfEah4FO"], ["auth_token", "VNvtPZWYT5swvXJBJLCf1VH1"], ["created_at", "2019-02-04 14:05:04.343606"], ["updated_at", "2019-02-04 14:05:04.343606"]]
+  ↳ app/controllers/users_controller.rb:17
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:17
+Completed 200 OK in 67ms (Views: 0.3ms | ActiveRecord: 3.3ms)
+
+

@@ -119,4 +119,3 @@ end
 turki = User.create({firstt_name: "Turki", last_name: "alomari", email: "t-matar@windowslive.com", password: "Y2ffooff"})
 
 
-end

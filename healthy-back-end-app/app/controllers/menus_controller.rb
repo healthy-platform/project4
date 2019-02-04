@@ -3,14 +3,8 @@ class MenusController < ApplicationController
   
   
   def index
-    # if params[:restaurant_id]
-    #   @menus = Restaurant.find(params[:restaurant_id]).menus
-    #   else
-    #     @menus = Menu.all
-    #   end
-    #   render json: @menus
-    # end 
-    @menus = Restaurant.all
+   
+    @menus = Menu.all
   render json: @menus
   end
                       
