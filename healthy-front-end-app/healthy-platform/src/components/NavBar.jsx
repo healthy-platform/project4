@@ -47,7 +47,7 @@ const { user, changeForm, logout, getProducts, changeActivePage } = props;
               <li className="nav-item active" onClick={() => logout()}>
                 <div className="nav-link">Logout</div>
               </li>
-              <li className="nav-item active" onClick={() => getProducts()}>
+              <li className="nav-item active" onClick={() => { getProducts() ;  changeActivePage("menuForm") } }>
                 <div className="nav-link">products</div>
               </li>
               <li>

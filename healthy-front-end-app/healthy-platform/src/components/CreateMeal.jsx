@@ -4,12 +4,12 @@ class CreateMeal extends Component{
     constructor(){
         super()
         this.state = {
-            dish: '',
+            dish_item: '',
             price: '',
             calories: null,
             description: '',
-            image: '',
-            restaurant: null
+            img: '',
+            restaurant_id: null
         }
     }
 
@@ -21,26 +21,74 @@ class CreateMeal extends Component{
         const name = event.target.name;
         const value = event.target.value;
 
+
+
         this.setState({
             [name]: value
-        })
+        },() => {console.log(this.state)})
+
     }
 
     handleSubmit(event){
         event.preventDefault()
-        this.props.renderNewMeal(this.state)
+        // this.props.renderNewMeal(this.state)
+
+// let data = this.state.menu
+
+let obj =
+    {
+        menu: { 
+            dish_item: this.state.dish_item ,
+            price: this.state.price,
+            calories: this.state.calories,
+            description: this.state.description,
+            img: this.state.img,
+            restaurant_id: this.state.restaurant_id
+        }
     }
+
+
+        let apiUrl = "http://localhost:3000/menus"
+        fetch(apiUrl, {
+            method: "POST",
+            headers: {
+              "content-type": "application/json"
+            },
+            body: JSON.stringify(obj)
+            
+          })
+            .then(response => response.json())
+            .then(data => {
+              console.log(data);
+
+
+            //   setToken(data.auth_token);
+            //   setUser(JSON.stringify({ 
+            //   email: data.email , 
+            //   firstt_name: data.firstt_name, 
+            //   id: data.id , 
+            //   last_name: data.last_name  }));
+            //   this.props.onLogin();
+            // 
+        })
+            .catch(error => {
+      
+              console.log("this is an error \n\n\n")
+              console.log(error);
+            });
+        }
+
 
     render(){
         return (<div>
             <form onSubmit={this.handleSubmit.bind(this)}>
-                <label>Dish: </label><input type="text" name="dish" onChange={this.handleChange.bind(this)} />
+                <label>Dish: </label><input type="text" name="dish_item" onChange={this.handleChange.bind(this)} />
                 <label>Price: </label><input type="text" name="price" onChange={this.handleChange.bind(this)} />
                 <label>Calories: </label><input type="text" name="calories" onChange={this.handleChange.bind(this)} />
                 <label>Description: </label><input type="text" name="description" onChange={this.handleChange.bind(this)} />
-                <label>Image: </label><input type="text" name="image" onChange={this.handleChange.bind(this)} />
+                <label>Image: </label><input type="text" name="img" onChange={this.handleChange.bind(this)} />
                 <label>Restaurant</label>
-                <select name="restaurant" onChange={this.handleChange.bind(this)}>
+                <select name="restaurant_id" onChange={this.handleChange.bind(this)}>
                     <option value="1">Kudu</option>
                     <option value="2">Herfy</option>
                     <option value="3">Alkhafeef</option>

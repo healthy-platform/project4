@@ -1,21 +1,17 @@
 class MenusController < ApplicationController
    before_action :set_menu, only: [:show, :update, :destory]
   
-  
   def index
-   
     @menus = Menu.all
-  render json: @menus
+    render json: @menus
   end
-                      
-  
 
   def show
     render json: @menu
   end
 
   def create 
-    @menus = Menu.create(menus_params)
+    @menus = Menu.create(menu_params)
     render json: @menus
   end
 
@@ -36,7 +32,7 @@ class MenusController < ApplicationController
   end 
 
   def menu_params
-    params.require(:menu).permit(:dish, :price, :calories, :description, :image, :restaurant_id)
+    params.require(:menu).permit(:dish_item, :price, :calories, :description, :img, :restaurant_id)
   end
 
 end 

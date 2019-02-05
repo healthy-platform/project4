@@ -1,6 +1,9 @@
 body{
 
-  background-image: url("http://cs-people.bu.edu/jasonluo/CS585/hw1_page/Images/background.jpg");
+  background-image: url("https://cdn20.patchcdn.com/users/73761/20180703/041248/styles/T800x600/public/processed_images/honor-roll-shutterstock_637859629-1530547548-868-1530648709-8806.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 .App {
   text-align: center;

@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import { Card } from 'react-bootstrap';
 
 class Main extends Component {
 constructor(){
@@ -39,19 +40,25 @@ componentDidMount(event){
     renderSearchResults(searchResponse){
         // render the state that stores the results from the API
         return searchResponse.map((response, index) => {
-            return <div key={index}>{response.price}
-                <p> {response.description}</p>
-                    <p>{response.dish_item}</p>
-                <img width="350px" height="200px" src={response.img} alt={response.dish_item}></img> 
-                <p> {response.calories}</p>
+            
+            return <Card  style={{width:"280px", height:"180px"}}key={index}>{response.price}
+                <Card.Img variant="top" src={response.img} alt={response.dish_item}></Card.Img>
+               <Card.Body>
+               <Card.Title>{response.dish_item}</Card.Title>
+                <Card.Text> {response.description}</Card.Text>
+               <Card.Text> {response.calories}</Card.Text>
+                     </Card.Body>
+                {/* <Card.Img width="34%" height="45px" src={response.img} alt={response.dish_item}></Card.Img>  */}
+                {/* <p> {response.calories}</p> */}
                 
-               </div>
+               </Card>;
         })
     }
 
     render(){
         return(     
             <div>
+
                
                 {this.renderSearchResults(this.state.response)}
                 {/* Calroies:<div>{this.state.calories}</div>

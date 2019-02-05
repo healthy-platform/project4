@@ -94,7 +94,8 @@ render() {
         changeForm={this.changeForm}
         logout={this.logout}
         getProducts={this.getProducts}
-        changeActivePage={this.changeActivePage}
+        createMeal={this.createMeal}
+        changeActivePage = {this.changeActivePage}
       />
       <div className="container">
 
