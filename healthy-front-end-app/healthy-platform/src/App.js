@@ -5,7 +5,7 @@ import { getUser, logout} from "./services/authService";
 import NavBar from "./components/NavBar";
 import AuthForm from "./components/AuthForm";
 import Profile from "./components/Profile";
-
+import CreateMeal from './components/CreateMeal';
 
 class App extends Component {
   constructor (){
@@ -18,8 +18,9 @@ class App extends Component {
         img: '',
         response:[],
       user:null,
-      from: "signup"
-
+      from: "signup",
+      newMeal: null,
+      activePage: "main"
     };
   }
 checkForUser = () => {
@@ -40,6 +41,25 @@ renderMenu(allMenu){
         menu={menu}/>
     )
   })
+}
+
+renderNewMeal(data){
+  this.setState({
+    newMeal: data
+  })
+}
+
+
+changeActivePage =  (activePage) => {
+  this.setState({activePage})
+}
+createMeal = (activePage) => {
+
+ 
+console.log("\n\\nn\n\n\n menu created ")
+  // return (
+  //   <CreateMeal renderNewMeal={this.renderNewMeal.bind(this)} />
+  // )
 }
 
 changeForm = type => {
@@ -74,8 +94,10 @@ render() {
         changeForm={this.changeForm}
         logout={this.logout}
         getProducts={this.getProducts}
+        changeActivePage={this.changeActivePage}
       />
       <div className="container">
+
         {this.state.user ? (
           <Profile user={this.state.user} />
         ) : ( ""
@@ -88,7 +110,10 @@ render() {
 
       {this.state.form === 'signup' ?  <AuthForm form={this.state.form} onLogin={this.login} /> : false}
       {this.state.form === 'login' ?  <AuthForm form={this.state.form} onLogin={this.login}/>: ''}
-      <Main/>
+      {/* {this.state.newMeal ? <AuthForm newMeal={this.state.newMeal}/> : null} */}
+
+      {this.state.activePage === 'menuForm' ? <CreateMeal/> : ""}
+      {this.state.activePage === 'main' ? <Main/> : ""}
     </div>
 
     

@@ -44,6 +44,7 @@ componentDidMount(event){
                     <p>{response.dish_item}</p>
                 <img width="350px" height="200px" src={response.img} alt={response.dish_item}></img> 
                 <p> {response.calories}</p>
+                
                </div>
         })
     }
@@ -58,7 +59,17 @@ componentDidMount(event){
                 Description:<div>{this.state.description}</div> */}
                 {/* <img src={this.state.img} alt={this.state.dish_item}></img> */}
             
+            
             </div>
+
+
+
+
+
+
+
+
+            
 
 
         )

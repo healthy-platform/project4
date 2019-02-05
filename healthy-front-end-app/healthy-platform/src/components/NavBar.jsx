@@ -1,10 +1,10 @@
 import React from "react";
 
 const NavBar = (props) => {
-const { user, changeForm, logout, getProducts } = props;
+const { user, changeForm, logout, getProducts, changeActivePage } = props;
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <div className="navbar-brand">Menus</div>
+      <div className="navbar-brand"><a href="http://localhost:3001">Menus</a></div>
       <button
         className="navbar-toggler"
         type="button"
@@ -18,6 +18,13 @@ const { user, changeForm, logout, getProducts } = props;
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
+
+            <li
+                className="nav-item active"
+                onClick={() => changeActivePage("main") }
+              >
+                <div className="nav-link">HOME</div>
+              </li>
           {// if the user is not authenticated
           !user && (
             <React.Fragment>
@@ -42,6 +49,9 @@ const { user, changeForm, logout, getProducts } = props;
               </li>
               <li className="nav-item active" onClick={() => getProducts()}>
                 <div className="nav-link">products</div>
+              </li>
+              <li>
+              <div className="nav-link " onClick={() => changeActivePage("menuForm")}>Add Menus</div>
               </li>
             </React.Fragment>
           )
