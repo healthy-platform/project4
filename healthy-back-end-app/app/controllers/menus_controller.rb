@@ -3,7 +3,8 @@ class MenusController < ApplicationController
   
   def index
     @menus = Menu.all
-    render json: @menus
+    menus =  @menus.map { |menu| {menu: menu , restaurant: menu.restaurant.name} }
+    render json: menus
   end
 
   def show
@@ -11,8 +12,9 @@ class MenusController < ApplicationController
   end
 
   def create 
-    @menus = Menu.create(menu_params)
-    render json: @menus
+    @menu = Menu.create(menu_params)
+    rest = @menu.restaurant
+    render json: {menu: @menu , restaurant:  rest.name}
   end
 
   def edit

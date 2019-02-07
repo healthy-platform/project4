@@ -35,7 +35,7 @@ menus = [
     price: "27 SR",
     calories: 561,
     description: "Comes with brown bread fresh salad ",
-    img: "https://beta.kudu.com.sa/media/cache/menu_image/img/menu/101821.jpg",
+    img: "https://cosascotidianasblog.files.wordpress.com/2013/05/comida-saludable-en-navidad.jpg",
     restaurant: Restaurant.find(1)
 
 },
