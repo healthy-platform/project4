@@ -1,10 +1,11 @@
 import React from "react";
 
+
 const NavBar = (props) => {
-const { user, changeForm, logout, getProducts, changeActivePage } = props;
+  const { user, logout, changeActivePage, changeToMain } = props;
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <div className="navbar-brand"><a href="http://localhost:3001">Menus</a></div>
+    <nav className="navbar navbar-expand-lg navbar-light nav1">
+      <div className="navbar-brand" onClick={() => changeToMain()}>HealthyDishes</div>
       <button
         className="navbar-toggler"
         type="button"
@@ -19,43 +20,43 @@ const { user, changeForm, logout, getProducts, changeActivePage } = props;
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
 
-            <li
-                className="nav-item active"
-                onClick={() => changeActivePage("main") }
-              >
-                <div className="nav-link">HOME</div>
-              </li>
+          <li
+            className="nav-item active"
+            onClick={() => changeActivePage("main")}
+          >
+            <div className="nav-link ">HOME  </div>
+          </li>
           {// if the user is not authenticated
-          !user && (
-            <React.Fragment>
-              <li
-                className="nav-item active"
-                onClick={() => changeForm("login")}
-              >
-                <div className="nav-link">Login</div>
-              </li>
-              <li
-                className="nav-item active"
-                onClick={() => changeForm("signup")}
-              >
-                <div className="nav-link"> Signup</div>
-              </li>
-            </React.Fragment>
-          )}
+            !user && (
+              <React.Fragment>
+                <li
+                  className="nav-item active"
+                  onClick={() => changeActivePage("login")}
+                >
+                  <div className="nav-link">Login</div>
+                </li>
+                <li
+                  className="nav-item active"
+                  onClick={() => changeActivePage("signup")}
+                >
+                  <div className="nav-link"> Signup</div>
+                </li>
+              </React.Fragment>
+            )}
           {user && (
             <React.Fragment>
               <li className="nav-item active" onClick={() => logout()}>
-                <div className="nav-link">Logout</div>
+                <div className="nav-link">Logout </div>
               </li>
-              <li className="nav-item active" onClick={() => { getProducts() ;  changeActivePage("menuForm") } }>
-                <div className="nav-link">products</div>
-              </li>
+
               <li>
-              <div className="nav-link " onClick={() => changeActivePage("menuForm")}>Add Menus</div>
+                <div className="nav-link active " onClick={() => changeActivePage("menuForm")}>Add Meal</div>
               </li>
+
+
             </React.Fragment>
           )
-          // if the user authenticated
+            
           }
         </ul>
       </div>

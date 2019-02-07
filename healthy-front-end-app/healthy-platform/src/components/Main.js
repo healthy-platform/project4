@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import { Card } from 'react-bootstrap';
+import {Button} from 'react-bootstrap';
 
 class Main extends Component {
 constructor(){
@@ -39,28 +40,37 @@ componentDidMount(event){
 
     renderSearchResults(searchResponse){
         // render the state that stores the results from the API
+
+
         return searchResponse.map((response, index) => {
             
-            return <Card  style={{width:"280px", height:"180px"}}key={index}>{response.price}
-                <Card.Img variant="top" src={response.img} alt={response.dish_item}></Card.Img>
+            return <div className="col m-2">
+            
+            <Card  style={{width:"25rem"}}key={index}>{response.menu.dish_item}
+                <Card.Img variant="top" src={response.menu.img} alt={response.menu.dish_item}></Card.Img>
                <Card.Body>
-               <Card.Title>{response.dish_item}</Card.Title>
-                <Card.Text> {response.description}</Card.Text>
-               <Card.Text> {response.calories}</Card.Text>
-                     </Card.Body>
+
+               <Card.Title> Restaurant Name: {response.restaurant} </Card.Title>
+               <Card.Title> Price: {response.menu.price} SAR</Card.Title>
+                <Card.Text> {response.menu.description}</Card.Text>
+               <Card.Text> Calories: {response.menu.calories}</Card.Text>
+               <Button variant="primary">More</Button>
+                </Card.Body>
                 {/* <Card.Img width="34%" height="45px" src={response.img} alt={response.dish_item}></Card.Img>  */}
                 {/* <p> {response.calories}</p> */}
                 
-               </Card>;
+               </Card>
+               </div>
         })
     }
 
     render(){
         return(     
-            <div>
+            <div className="container">
 
-               
+               <div className="row">
                 {this.renderSearchResults(this.state.response)}
+                </div>
                 {/* Calroies:<div>{this.state.calories}</div>
                 Dish Item: <div>{this.state.dish_item}</div>
                 Description:<div>{this.state.description}</div> */}
@@ -71,6 +81,8 @@ componentDidMount(event){
 
 
 
+     
+    
 
 
 

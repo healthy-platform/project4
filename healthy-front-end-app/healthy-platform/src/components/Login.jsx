@@ -10,7 +10,7 @@ const Login = props => {
         <button className="btn btn-primary"> Login </button>
       </form>
     </div>
-  );
-};
+  )
+}
 
 export default Login;

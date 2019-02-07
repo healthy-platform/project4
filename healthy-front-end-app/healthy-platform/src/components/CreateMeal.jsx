@@ -1,7 +1,7 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 
-class CreateMeal extends Component{
-    constructor(){
+class CreateMeal extends Component {
+    constructor() {
         super()
         this.state = {
             dish_item: '',
@@ -14,10 +14,10 @@ class CreateMeal extends Component{
     }
 
 
-    componentDidMount(){
-        console.log("\n\n\n\n\n " , "inside the menu form " )
+    componentDidMount() {
+        console.log("\n\n\n\n\n ", "inside the menu form ")
     }
-    handleChange(event){
+    handleChange(event) {
         const name = event.target.name;
         const value = event.target.value;
 
@@ -25,61 +25,52 @@ class CreateMeal extends Component{
 
         this.setState({
             [name]: value
-        },() => {console.log(this.state)})
+        }, () => { console.log(this.state) })
 
     }
 
-    handleSubmit(event){
+    handleSubmit(event) {
         event.preventDefault()
         // this.props.renderNewMeal(this.state)
 
-// let data = this.state.menu
+        // let data = this.state.menu
 
-let obj =
-    {
-        menu: { 
-            dish_item: this.state.dish_item ,
-            price: this.state.price,
-            calories: this.state.calories,
-            description: this.state.description,
-            img: this.state.img,
-            restaurant_id: this.state.restaurant_id
+        let obj =
+        {
+            menu: {
+                dish_item: this.state.dish_item,
+                price: this.state.price,
+                calories: this.state.calories,
+                description: this.state.description,
+                img: this.state.img,
+                restaurant_id: this.state.restaurant_id
+            }
         }
-    }
 
 
         let apiUrl = "http://localhost:3000/menus"
         fetch(apiUrl, {
             method: "POST",
             headers: {
-              "content-type": "application/json"
+                "content-type": "application/json"
             },
             body: JSON.stringify(obj)
-            
-          })
+
+        })
             .then(response => response.json())
             .then(data => {
-              console.log(data);
+                console.log(data);
 
-
-            //   setToken(data.auth_token);
-            //   setUser(JSON.stringify({ 
-            //   email: data.email , 
-            //   firstt_name: data.firstt_name, 
-            //   id: data.id , 
-            //   last_name: data.last_name  }));
-            //   this.props.onLogin();
-            // 
-        })
+            })
             .catch(error => {
-      
-              console.log("this is an error \n\n\n")
-              console.log(error);
+
+                console.log("this is an error \n\n\n")
+                console.log(error);
             });
-        }
+    }
 
 
-    render(){
+    render() {
         return (<div>
             <form onSubmit={this.handleSubmit.bind(this)}>
                 <label>Dish: </label><input type="text" name="dish_item" onChange={this.handleChange.bind(this)} />
